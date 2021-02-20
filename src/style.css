@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+
+}
+
+.container-nav{
+    display: flex;
+
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+.donate{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card-container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-h1{
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+}
+
+.card-peso{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-peso{
+    width: 300px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.btn-peso{
+    width: 100px;
+    text-align: center;
+    padding: 5px 5px;
+    background-color: #33DAFF;
+    border: 1px solid black;
+    border-radius: 5px
+}
+
+.card-h2{
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 60px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.footer-a{
+    text-decoration-line: none;
+}
+
+.footer-h3{
+    font-size: 14px;
+    color: white;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.img{
+    -webkit-animation: 5s rotate linear infinite;
+    animation: 5s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
